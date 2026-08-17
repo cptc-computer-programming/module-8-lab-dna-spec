@@ -306,8 +306,6 @@ Extend your program so that DNA sequences can be read from a file rather than en
 
 Test your program using the provided DNA data files.
 
----
-
 ### Option 3: Analyze an unknown number of DNA sequences
 
 After displaying the result, ask:
