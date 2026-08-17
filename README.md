@@ -4,6 +4,9 @@
 
 In this assignment, you will write a program that analyzes a sequence of DNA nucleotides.
 
+<img width="3000" height="2100" alt="image" src="https://github.com/user-attachments/assets/cbe1b2b9-cb48-42ed-8fce-25f461d163a9" />
+
+
 DNA sequences are made from four nucleotides:
 
 * **A** — Adenine
@@ -19,12 +22,6 @@ Your program will take a nucleotide sequence and produce information about it. S
 * Predict whether the sequence encodes a protein.
 
 This assignment is intended to give you additional practice with **arrays**, **methods**, **loops**, and **String processing**, while introducing a basic bioinformatics problem.
-
-Save your program in:
-
-```text
-DNATest.java
-```
 
 ---
 
@@ -61,7 +58,8 @@ Your program must:
 9. Determine whether the sequence meets the protein requirements.
 10. Produce all final results from a single output method.
 
-You may assume that the number of nucleotides in a sequence is a multiple of 3.
+> [!IMPORTANT]
+> You may assume that the number of nucleotides in a sequence is a multiple of 3.
 
 ---
 
@@ -157,10 +155,7 @@ Your methods should be organized so that looking at `main` gives a clear overvie
 
 No individual method should become unnecessarily long.
 
-> [!IMPORTANT]
-> **All final output must be produced by one output method that receives the computed data as parameters.**
-
-`main` should not directly produce the analysis output.
+All final output should be produced by one output method that receives the computed data as parameters. `main` should not directly produce the analysis output.
 
 The only exception is output related to asking whether the user wants to analyze another sequence.
 
